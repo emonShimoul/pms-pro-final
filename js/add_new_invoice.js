@@ -147,7 +147,6 @@ function getChange(paid_amt) {
   var net_total = document.getElementById("net_total").value;
   var final_output = paid_amt - net_total;
   document.getElementById("change_amt").value = final_output.toFixed(2);
-  // document.getElementById("change_amt").value = round(final_output, 2);
 }
 
 function isCustomer(name, contact_number) {
